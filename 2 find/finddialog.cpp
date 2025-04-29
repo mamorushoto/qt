@@ -3,27 +3,15 @@
 FindDialog::FindDialog(QWidget *parent)
     : QDialog(parent)
 {
-    ////////////////////////////////
-    /// COLORS
-    ///
-
     const QColor white {"#ffffff"};
     const QColor black {"#000000"};
-
-
-    ////////////////////////////////
-    /// WINDOW
-    ///
     const QColor WINDOW_COLOR {white};
     const QFont WINDOW_FONT {"Consolas", 16, 400};
     const int MAX_WINDOW_HEIGHT {100};
 
     setMaximumHeight(MAX_WINDOW_HEIGHT);
     setPalette(WINDOW_COLOR);
-
-    ////////////////////////////////
-    /// LAYOUT
-    ///
+    
     mainLayout = new QHBoxLayout{this};
 
     rightLayout = new QVBoxLayout;
@@ -33,10 +21,7 @@ FindDialog::FindDialog(QWidget *parent)
 
     topLeftLayout = new QHBoxLayout;
     leftLayout->addLayout(topLeftLayout);
-
-    ///////////////////////////////////
-    /// LABEL
-    ///
+    
     const QColor LABEL_COLOR {black};
     QFont LABEL_FONT {WINDOW_FONT};
     LABEL_FONT.setWeight(QFont::Bold);
@@ -50,9 +35,6 @@ FindDialog::FindDialog(QWidget *parent)
     label->setPalette(label_palette);
     topLeftLayout->addWidget(label);
 
-    ///////////////////////////////////
-    /// LINE EDIT
-    ///
     const QColor LINE_EDIT_BG_COLOR {white};
     const QColor LINE_EDIT_COLOR {black};
     const QSize LINE_EDIT_MIN_SIZE {200, 50};
@@ -72,9 +54,6 @@ FindDialog::FindDialog(QWidget *parent)
     topLeftLayout->addWidget(lineEdit);
     label->setBuddy(lineEdit);
 
-    ///////////////////////////////////
-    /// CHECKBOXES
-    ///
     const QColor CHECKBOX_COLOR {black};
 
     QFont checkbox_font {WINDOW_FONT};
@@ -98,9 +77,6 @@ FindDialog::FindDialog(QWidget *parent)
     leftLayout->addWidget(caseBox);
     leftLayout->addWidget(backwardBox);
 
-    ///////////////////////////////////
-    /// BUTTONS
-    ///
     const QSize BTN_SIZE {100, 50};
     const QColor BTN_BG_COLOR {white};
     const QColor BTN_COLOR {black};
@@ -145,13 +121,13 @@ void FindDialog::findClicked()
     if (backwardBox->isChecked())
     {
         emit findPrevious(text, cs);
-        qDebug() << "findClicked() -> findPrevious(" << text << ", " << cs << ')' << '\n'; // DEBUG
+        qDebug() << "findClicked() -> findPrevious(" << text << ", " << cs << ')' << '\n';
     }
 
     else
     {
         emit findNext(text, cs);
-        qDebug() << "findClicked() -> findNext(" << text << ", " << cs << ')' << '\n'; // DEBUG
+        qDebug() << "findClicked() -> findNext(" << text << ", " << cs << ')' << '\n';
     }
 
 }
