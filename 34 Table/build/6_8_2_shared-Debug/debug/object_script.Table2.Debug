@@ -1,0 +1,14 @@
+debug/main.o
+debug/table.o
+debug/menugroup.o
+debug/cell.o
+debug/spreadsheet.o
+debug/findDialog.o
+debug/gotocell.o
+debug/sort.o
+debug/qrc_ikonki.o
+debug/moc_table.o
+debug/moc_spreadsheet.o
+debug/moc_finddialog.o
+debug/moc_gotocell.o
+debug/moc_sort.o

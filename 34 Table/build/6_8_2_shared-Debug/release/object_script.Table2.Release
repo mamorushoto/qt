@@ -1,0 +1,14 @@
+release/main.o
+release/table.o
+release/menugroup.o
+release/cell.o
+release/spreadsheet.o
+release/findDialog.o
+release/gotocell.o
+release/sort.o
+release/qrc_ikonki.o
+release/moc_table.o
+release/moc_spreadsheet.o
+release/moc_finddialog.o
+release/moc_gotocell.o
+release/moc_sort.o
