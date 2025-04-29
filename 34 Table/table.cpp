@@ -408,15 +408,10 @@ void Table::about()
     QMessageBox::about
     (
         this,
-        tr("About SpreadSheet"),
+        tr("About"),
         tr
         (
-            "<h2>SpreadSheet 1.1</h2>"
-            "<p>Copyright &copy; 2003 Software Inc."
-            "<p>Spreadsheet is a small application that "
-            "demonstrates <b>QAction</b>, <b>QMainWindow</b>, "
-            "<b>QMenuBar</b>, <b>QStatusBar</b>, "
-            "<b>QToolBar</b>, and many other Qt classes."
+            "Table app"
         )
     );
 }
