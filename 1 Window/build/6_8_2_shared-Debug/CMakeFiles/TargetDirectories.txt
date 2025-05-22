@@ -1,0 +1,9 @@
+C:/Users/Professional/Desktop/prog4semQt/Window/build/6_8_2_shared-Debug/CMakeFiles/Window.dir
+C:/Users/Professional/Desktop/prog4semQt/Window/build/6_8_2_shared-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Professional/Desktop/prog4semQt/Window/build/6_8_2_shared-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Professional/Desktop/prog4semQt/Window/build/6_8_2_shared-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Professional/Desktop/prog4semQt/Window/build/6_8_2_shared-Debug/CMakeFiles/install.dir
+C:/Users/Professional/Desktop/prog4semQt/Window/build/6_8_2_shared-Debug/CMakeFiles/install/local.dir
+C:/Users/Professional/Desktop/prog4semQt/Window/build/6_8_2_shared-Debug/CMakeFiles/install/strip.dir
+C:/Users/Professional/Desktop/prog4semQt/Window/build/6_8_2_shared-Debug/CMakeFiles/Window_autogen_timestamp_deps.dir
+C:/Users/Professional/Desktop/prog4semQt/Window/build/6_8_2_shared-Debug/CMakeFiles/Window_autogen.dir
